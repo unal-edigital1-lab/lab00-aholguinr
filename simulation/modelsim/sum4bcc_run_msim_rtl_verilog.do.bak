@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/andre/Documents/GitHub/lab00-aholguinr {C:/Users/andre/Documents/GitHub/lab00-aholguinr/sum1bcc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/andre/Documents/GitHub/lab00-aholguinr {C:/Users/andre/Documents/GitHub/lab00-aholguinr/sum4bcc.v}
+
