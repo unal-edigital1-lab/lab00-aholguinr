@@ -12,6 +12,6 @@ Otro aspecto que me costó entender fue utilziar apropiadamente la interfaz de s
 
 A continuación muestro dos imagenes de los resultados de la simulación, una de los primeros casos y la otra de los últimos:
 
-![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/tree/master/Imagenes/sim1.png "Simulación 1")
+![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/blob/master/Imagenes/sim1.png?raw=true "Simulación 1")
 
-![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/tree/master/Imagenes/sim1.png "Simulación 2")
+![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/blob/master/Imagenes/sim2.png?raw=true "Simulación 2")
