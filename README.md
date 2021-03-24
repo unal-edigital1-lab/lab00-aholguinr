@@ -12,14 +12,17 @@ Los códigos a implementar se encontraban en la guia de laboratorio, sin embargo
 
 ### Sum1bcc
 Lo primero fue mirar el sumador de 1 bit. En él aprendí a utilizar registros para almacenar datos y el bloque de lógica combinacional always @(*) para este tipo de casos.
+
 ![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/blob/master/Imagenes/cod1bit.png?raw=true "Código sum1bcc")
 
 ### Sum4bcc
 Lo siguiente fue utilizar el top level sum4bcc que implementa el sumador de un bit para generar un sumador de 4 bits. Esto con el hecho de unir 4 sumadores de 1 bit mediante "wires", que en este caso se crearon 3 diferentes, pero que se pudo hacer un arreglo de wires y asignar posiciones para cada conexión necesaria. Tambien se utilizan registros de 4 bits con el fin de almacenar los resultados del sumador, lo cual es mucho más práctico a crear variables para cada salida de información.
+
 ![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/blob/master/Imagenes/cod4bit.png?raw=true "Código sum4bcc")
 
 ### testbench
 Con el código del testbench se tiene una estructura diferente a los anteriores archivos. Por un lado se tiene el bucle que aumenta los valores de entrada "x" y "y" desde 0 hasta 15, que en binario sería hasta 1111. De este modo se tienen todas las combinaciones posibles para la simulación. También se tiene otro código en el mismo módulo que inicializa todas las variables y asigna un tiempo final de simulación.
+
 ![alt text](https://github.com/unal-edigital1-lab/lab00-aholguinr/blob/master/Imagenes/codtb.png?raw=true "Código testbench")
 
 
