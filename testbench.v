@@ -8,7 +8,6 @@ module testbench;
   wire co;
   wire [3:0] zi;
   
-  parameter stimDelay=10;
 
   // Instantiate the Unit Under Test (UUT)
   sum4bcc uut (
